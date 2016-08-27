@@ -1,5 +1,5 @@
 {
-  "name": "nightwatch-test",
+  "name": "nightwatch-selenium-download",
   "version": "1.0.0",
   "main": "nightwatch.js",
   "directories": {

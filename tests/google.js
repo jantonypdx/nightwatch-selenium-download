@@ -1,5 +1,5 @@
 module.exports = {
-  'Demo test Google' : function (client) {
+  'Simple Google test' : function (client) {
 
     let url = 'http://www.google.com';
     let expectedTitle = 'Google';

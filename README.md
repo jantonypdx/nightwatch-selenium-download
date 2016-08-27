@@ -1,9 +1,10 @@
-# ${1:Project Name}
-TODO: Write a project description
+# nightwatch-selenium-download
+A simple [Nightwatch.js](http://nightwatchjs.org/) project that uses [groupon/selenium-download](https://github.com/groupon/selenium-download) package to download and run the latest compatible versions of [selenium standalone server](http://www.seleniumhq.org/download/) and [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/) for the operating system that you are running. This makes it easier to run the same Nightwatch.js tests on Mac, Windows, or Linux.
 ## Installation
-TODO: Describe the installation process
+    git clone https://github.com/jantonypdx/nightwatch-selenium-download
 ## Usage
-TODO: Write usage instructions
+    npm install
+    node nightwatch.js -t tests\google.js
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -15,4 +16,4 @@ TODO: Write history
 ## Credits
 TODO: Write credits
 ## License
-TODO: Write license
+See [MIT License](license.txt)
