@@ -18,7 +18,8 @@ node nightwatch.js -t tests/google.js
 This will:
 - download selenium.jar and chromedriver
 - start selenium-standalone-server
-- and then run a basic Nightwatch test against Google using Chrome (see google.js in the tests directory).
+- then run a basic Nightwatch test against Google using Chrome (see google.js in the tests directory).
+
 ## Credits
 See [selenium-download Github](https://github.com/groupon/selenium-download) page.
 
