@@ -1,20 +1,26 @@
 # nightwatch-selenium-download
-A simple [Nightwatch.js](http://nightwatchjs.org/) project that uses [groupon/selenium-download](https://github.com/groupon/selenium-download) package to download and run the latest compatible versions of [selenium standalone server](http://www.seleniumhq.org/download/) and [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/) for the operating system that you are running. This makes it easier to run the same Nightwatch.js tests on Mac, Windows, or Linux.
+A simple [Nightwatch.js](http://nightwatchjs.org/) project that uses [groupon/selenium-download](https://github.com/groupon/selenium-download) package to download and run the latest compatible versions of [selenium standalone server](http://www.seleniumhq.org/download/) and [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/) for the operating system that you are currently running. This makes it easier to run the same Nightwatch.js tests on Mac, Windows, or Linux.
 ## Installation
     git clone https://github.com/jantonypdx/nightwatch-selenium-download
 ## Usage
-    npm install
-    node nightwatch.js -t tests\google.js
-## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request.
+First, make sure that selenium server isn't already running on your system.  
 
-## History
-TODO: Write history
+Then on Windows in a command prompt window (cmd), run:  
+```
+npm install
+node nightwatch.js -t tests\google.js
+```
+Or on Mac or Linux in a terminal window, run:
+```
+npm install
+node nightwatch.js -t tests/google.js
+```
+This will:
+- download selenium.jar and chromedriver
+- start selenium-standalone-server
+- and then run a basic Nightwatch test against Google using Chrome (see google.js in the tests directory).
 ## Credits
-TODO: Write credits
+See [selenium-download Github](https://github.com/groupon/selenium-download) page.
+
 ## License
 See [MIT License](license.txt)
