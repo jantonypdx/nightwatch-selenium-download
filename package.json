@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "node ./lib/install-selenium-chromedriver.js"
   },
-  "author": "",
+  "author": "John Antony",
   "license": "ISC",
-  "description": ""
+  "description": "automatically run Nightwatch.js tests with latest Selenium Server and ChromeDriver for your operating system"
 }
