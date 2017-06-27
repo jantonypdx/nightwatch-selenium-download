@@ -1,3 +1,1 @@
-node_modules/   # npm modules - created on npm install
-jsconfig.json   # ignore vscode file
-.idea           # ignore webstorm file
+node_modules

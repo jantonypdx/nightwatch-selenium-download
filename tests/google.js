@@ -1,5 +1,5 @@
 module.exports = {
-  'Simple Google test' : function (client) {
+  'Simple Google test' : function (browser) {
 
     let url = 'http://www.google.com';
     let expectedTitle = 'Google';
@@ -9,7 +9,7 @@ module.exports = {
     let searchResult = 'div.g:first-child > div > div.rc >  h3.r > a';
     let expectedResult = 'Node.js powered End-to-End testing framework'
 
-    client
+    browser
       // go to website, wait until body is loaded
       .url(url)
       // .waitForElementVisible('body', 10000)
