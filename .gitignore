@@ -1,3 +1,7 @@
-node_modules/   # created on npm install
+node_modules/   # npm modules - created on npm install
+bin/            # where chromedriver & selenium are downloaded to
+log/            # log files of test runs
+reports/        # reports from test runs
+screenshots/    # screenshots of errors
 jsconfig.json   # ignore vscode file
 .idea           # ignore webstorm file

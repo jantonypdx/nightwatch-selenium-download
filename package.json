@@ -6,8 +6,8 @@
     "test": "tests"
   },
   "dependencies": {
-    "nightwatch": "^0.9.8",
-    "selenium-download": "^2.0.6"
+    "nightwatch": "^0.9.16",
+    "selenium-download": "^2.0.10"
   },
   "devDependencies": {},
   "scripts": {
